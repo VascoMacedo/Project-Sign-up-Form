@@ -2,6 +2,11 @@
   display: flex; 
 }
 
+.flex-container2 {
+  display: flex; 
+  flex-direction: column;
+}
+
 /* this selector selects all divs inside of .flex-container */
 .flex-container .one {
   background: lightgreen;
@@ -16,4 +21,41 @@
   border: 4px solid brown;
   height: 100vh;
   background-color: white;
+}
+
+.two .main{
+  background: gainsboro;
+  border: 2px solid brown;
+  height: 33vh;
+}
+
+blockquote {
+  font-size: 30px;
+  /*font-weight: bold;
+  font-style: italic;*/
+  color: #1f2937;
+  padding-top: 25px;
+}
+
+cite {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+button {
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;  
+  border: 2px solid white;
+  font-weight: bold;
+
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.bottomP{
+  margin-left: 40px;
 }
