@@ -1,3 +1,15 @@
+html,
+body{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   margin: 0;
+}
+
+body {
+  font-family: "Audiowide", sans-serif;
+}
+
 .flex-container {
   display: flex; 
 }
@@ -51,9 +63,9 @@ button {
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 10px;
-  background-color: green;
-  color: white;  
-  border: 2px solid white;
+  background-color: gainsboro;
+  color: black;  
+  border: 2px solid black;
   font-weight: bold;
 
   margin-top: 40px;
@@ -68,7 +80,6 @@ img{
   width: 100%;
   height: 100%;
 }
-
 
 section{
   margin-left: 70px;
@@ -98,11 +109,16 @@ p label {
 }
 
 .testingP{
-  column-gap: 28px;    
+  column-gap: 20px;    
 }
 
 .testingP2{  
-  column-gap: 10px;  
+  column-gap: 7px;  
+}
+
+.numberP {
+  position: absolute;
+  left: 73.3rem;
 }
 
 
@@ -117,7 +133,6 @@ input:invalid {
 input:valid {
   border: 2px solid green;
 }
-
 
 
 .card-container {
@@ -140,20 +155,21 @@ input:valid {
   color: white;
   top: 8rem;
   text-align: center;  
-  font-size: 1.3em;
-  font-family: roboto;
+  font-size: 1.3em;  
+  font-family: "Sofia", sans-serif;
 }
+  
 .card-heading {
   position: absolute;
   top: 2rem;
-  left: 14rem;
+  left: 13rem;
 }
 
 .imagemP{
   width: 80px;
   height: 80px;
   position: absolute;
-  left: 24rem;
+  left: 25rem;
   top: 8px;  
 }
 
